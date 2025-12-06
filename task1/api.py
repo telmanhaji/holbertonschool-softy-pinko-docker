@@ -9,4 +9,3 @@ def hello_world():
 if __name__ == '__main__':
     # This keeps the server running and reachable from outside the container
     app.run(host='0.0.0.0', port=5252, debug=False)
-
